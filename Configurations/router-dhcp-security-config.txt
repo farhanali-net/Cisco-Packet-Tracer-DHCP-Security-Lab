@@ -1,0 +1,76 @@
+============================================================
+Cisco Packet Tracer - DHCP & Router Security Lab
+Router: Cisco 2811
+Network: 192.168.1.0/24
+============================================================
+
+
+========================
+INTERFACE CONFIGURATION
+========================
+
+enable
+configure terminal
+
+interface fastethernet 0/0
+ip address 192.168.1.100 255.255.255.0
+no shutdown
+exit
+
+
+========================
+DHCP CONFIGURATION
+========================
+
+ip dhcp excluded-address 192.168.1.1 192.168.1.5
+
+ip dhcp pool ccna
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.100
+dns-server 192.168.1.100
+exit
+
+
+========================
+ROUTER SECURITY
+========================
+
+enable password ccna
+
+enable secret ccnp
+
+service password-encryption
+
+
+========================
+CONSOLE SECURITY
+========================
+
+line console 0
+password ccna
+login
+exit
+
+
+========================
+VTY SECURITY
+========================
+
+line vty 0 4
+password ccna
+login
+exit
+
+
+========================
+SAVE CONFIGURATION
+========================
+
+end
+
+copy running-config startup-config
+
+
+============================================================
+END OF CONFIGURATION
+============================================================
