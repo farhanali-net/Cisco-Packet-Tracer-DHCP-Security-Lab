@@ -51,29 +51,8 @@ The lab topology consists of:
 
 ### Logical Topology
 
-```text
-                    ┌─────────────────┐
-                    │   Cisco 2811    │
-                    │     Router0     │
-                    │ 192.168.1.100   │
-                    └────────┬────────┘
-                             │
-                             │
-                    ┌────────▼────────┐
-                    │   Cisco 2960    │
-                    │     Switch      │
-                    └─┬────┬────┬───┬─┘
-                      │    │    │   │
-                    ┌─▼─┐ ┌▼──┐ ┌▼─┐ ┌▼──┐
-                    │PC1│ │PC2│ │PC3│ │PC4│
-                    └───┘ └───┘ └───┘ └───┘
-                                         │
-                                       ┌─▼─┐
-                                       │PC5│
-                                       └───┘
-````
+<img width="412" height="379" alt="Screenshot 2026-09-15 124902" src="https://github.com/user-attachments/assets/5b01894b-73f8-463c-8ba2-46fe3e84ea7f" />
 
----
 
 ## IP Addressing Scheme
 
