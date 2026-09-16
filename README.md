@@ -14,7 +14,7 @@ client PCs**.
 
 The lab focuses on **DHCP-based IP address assignment**, IPv4
 networking, Cisco IOS command-line configuration, and basic router
-access security.
+access security. 
 
 The objective was to configure, test, and verify a functional network
 using the **Cisco IOS Command-Line Interface (CLI)**.
