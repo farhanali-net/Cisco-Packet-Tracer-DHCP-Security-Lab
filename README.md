@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ## Overview 
- 
+
 This Cisco Packet Tracer lab demonstrates the configuration of a basic
 LAN using a **Cisco 2811 Router**, **Cisco 2960 Switch**, and **five
 client PCs**.
