@@ -50,7 +50,7 @@ The lab topology consists of:
 - Ethernet connections between the network devices
 
 ### Logical Topology
-
+        
 <img width="412" height="379" alt="Screenshot 2026-09-15 124902" src="https://github.com/user-attachments/assets/5b01894b-73f8-463c-8ba2-46fe3e84ea7f" />
 
 
